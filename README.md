@@ -4,11 +4,11 @@ _This guide is only for devices having a658 fingerprint scanners. Thanks to [lib
 
 ## Debain based systems
 
-- `apt install fprintd libpam-fprintd`
+- `sudo apt install fprintd libpam-fprintd`
 - `sudo pam-auth-update`
 - Check the (aestrik mark should appear) on fingerprint auth
 - Download the drivers from this repo *.deb for debian
-- `dpkg -i *.deb`
+- `sudo dpkg -i *.deb`
 - Restart the device and you will be able to use fingerprint
 
 ## Fedora/Redhat systems
